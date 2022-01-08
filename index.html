@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="mainApp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+    <script src="scripts/angular.min.js"  ></script>
+    <script src="scripts/controller.js"></script>
+    
+</head>
+<body>
+    <div ng-controller="people">
+     <ul>
+     <h2> Name of programmers in ABC Company</h2>
+     <input type="text" ng-model="searchBox"><br>
+     <li ng-repeat="persons in persons|filter:searchBox">
+       {{persons.ID+"   :     "+persons.Name +"   :    "+persons.Gender+"   :    "+persons.Salary+"   :    "+persons.Department+"   :    "+persons.JobRole+"   :    "+persons.Experience}}
+      </li>
+
+
+
+     </ul>
+
+
+
+    </div>
+</body>
+</html>

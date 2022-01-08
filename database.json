@@ -1,0 +1,21 @@
+[
+    {
+        "ID":"56-2307147",
+        "Name":"MANJESH",
+        "Gender":"MALE",
+        "Salary":"LEVEL 1 -18000-56900"  ,
+        "Department":"IT",
+        "JobRole": "PROGRAMMING",
+        "Experience":"0 TO 3YRS"
+    },
+    {
+        "ID":"57-2307678",
+        "Name":"NEELAN",
+        "Gender":"MALE",
+        "Salary":"LEVEL 1- 18000-56900"  ,
+        "Department":"IT",
+        "JobRole": "PROGRAMMING",
+        "Experience":"0 TO 3YRS"
+        
+    }
+]
